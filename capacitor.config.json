@@ -1,0 +1,13 @@
+{
+	"appId": "com.everylog.app",
+	"appName": "牛马日记",
+	"webDir": "dist/build/h5",
+	"server": {
+		"androidScheme": "https"
+	},
+	"android": {
+		"allowMixedContent": true,
+		"captureInput": true,
+		"webContentsDebuggingEnabled": true
+	}
+}

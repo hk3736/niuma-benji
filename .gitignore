@@ -1,0 +1,24 @@
+unpackage/
+.DS_Store
+.hbuilderx/
+
+# 依赖与构建产物
+node_modules/
+dist/
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/app/src/main/assets/public/
+android/local.properties
+*.iml
+.idea/
+*.apk
+*.aab
+*.log
+
+# 本地调试脚本
+_dbg.mjs
+_e2e*.mjs
+_serve.mjs
+_icons.js

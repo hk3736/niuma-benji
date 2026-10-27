@@ -1,0 +1,36 @@
+{
+	"pages": [ //pages 数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "牛马本纪"
+			}
+		},
+		{
+			"path": "pages/logs/logs",
+			"style": {
+				"navigationBarTitleText": "日志列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/preview/preview",
+			"style": {
+				"navigationBarTitleText": "日志详情"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "牛马本纪",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F2F3F5"
+	},
+	"uniIdRouter": {}
+}
